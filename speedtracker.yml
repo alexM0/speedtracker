@@ -66,7 +66,7 @@ wptKey: "f5ad98c7f1a3668401fef443779ff24d9ffdaedb0e6ad1785760d54bf229a0843489"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
+alerts:
   emailAlert:
     type: "email"
     recipients: ["d5ef9cdde9ad638b5af2f26134c1f51fcabfa6894a26846f413bd857b620"]

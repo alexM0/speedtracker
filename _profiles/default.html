@@ -23,8 +23,8 @@ interval: 12
 #
 parameters:
   connectivity: "Cable"
-  location: "Dulles:Chrome"
-  runs: 1
+  location: "London:Chrome"
+  runs: 3
   url: "http://www.ticketmaster.co.uk"
 
 #
@@ -40,6 +40,14 @@ budgets:
   -
     metric: TTFB
     max: 1000
+    alerts: ["emailAlert"]
+  -
+    metric: SpeedIndex
+    min: 7300
+    alerts: ["emailAlert"]
+  -
+    domInteractive
+    max: 3000
     alerts: ["emailAlert"]
 #  -
 #    metric: firstPaint
